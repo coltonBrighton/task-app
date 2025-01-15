@@ -15,14 +15,9 @@ class Task {
   constructor(name) {
     this.name = name;
   }
-
-  describe() {
-    return `${this.name} has yet to be completed.`;
-  }
 }
 
-// each task has a name and needs to be able to be marked complete
-
+// creating a menu task
 class Menu {
   constructor() {
     this.tasks = [];
