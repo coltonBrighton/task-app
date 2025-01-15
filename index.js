@@ -17,7 +17,7 @@ class Task {
   }
 }
 
-// creating a menu task
+// creating a menu class
 class Menu {
   constructor() {
     this.tasks = [];
