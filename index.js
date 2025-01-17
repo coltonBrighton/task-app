@@ -21,7 +21,6 @@ class Task {
 class Menu {
   constructor() {
     this.tasks = [];
-    this.status = null;
   }
 
   // handle selection of main menu items
